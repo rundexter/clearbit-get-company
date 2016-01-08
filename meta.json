@@ -2,25 +2,58 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "domain",
+            "title": "Domain"
+        },
+        {
+            "id": "company_name",
+            "title":"Company Name"
+        },
+        {
+            "id": "twitter",
+            "title":"Twitter"
+        },
+        {
+            "id": "linkedin",
+            "title":"Linked In"
+        },
+        {
+            "id": "facebook",
+            "title":"Facebook"
         }
-        */
     ],
-    //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title":"ID"
+        },
+        {
+            "id": "name",
+            "title":"Name"
+        },
+        {
+            "id": "domain",
+            "title":"Domain"
+        },
+        {
+            "id": "tags",
+            "title":"Tags"
+        },
+        {
+            "id": "description",
+            "title":"Description"
+        },
+        {
+            "id": "location",
+            "title":"Location"
+        },
+        {
+            "id": "metrics",
+            "title":"Key Metrics"
         }
-      */
     ],
-    "title": "Clearbit: Get Company" /* Required.A display name for the module */
+    "icon": "dex-clearbit",
+    "title": "Clearbit: Get Company"
 }
